@@ -19,7 +19,7 @@
     "lru-cache": "~2.2.1",
     "request-ip": "~2.0.1",
     "uuid": "3.0.x",
-    "requireUncached": "1.0.3"
+    "require-uncached": "1.0.3"
   },
   "devDependencies": {
     "babel-core": "^5.8.24",
