@@ -1,8 +1,8 @@
 var _ = require('../utility');
 var logger = require('./logger');
-
-var http = require('http');
-var https = require('https');
+var requireUncached = require('require-uncached');
+var http = requireUncached('http');
+var https = requireUncached('https');
 var jsonBackup = require('json-stringify-safe');
 
 /*
